@@ -9,9 +9,6 @@
        <context:component-scan base-package="java" />
 
        <bean id="validatorRules" class="metier.ValidatorRules"/>
-
-       <bean id="fbqListImpl" class="services.FbqListImpl">
-              
-       </bean>
+       <bean id="fbqListImpl" class="services.FbqListImpl"/>
 
 </beans>
