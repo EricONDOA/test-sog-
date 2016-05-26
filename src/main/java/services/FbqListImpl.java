@@ -21,7 +21,7 @@ public class FbqListImpl implements IFbqList {
 
     public List<Fbq> calculateALL(Integer number) {
         List<Fbq> results = new ArrayList<Fbq>(number);
-        for (int i = 1; i < number; i++) {
+        for (int i = 1; i <= number; i++) {
             results.add(new Fbq(i, validatorRules.computeNumber(i)));
         }
 

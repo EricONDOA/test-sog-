@@ -53,6 +53,9 @@ public class FbqListImplTest {
         assertThat(results).isNotEmpty();
         assertThat(results.get(2).getNumber()).isEqualTo(3);
         assertThat(results.get(2).getValue()).isEqualTo("FooFoo");
+
+        // Help me to fix bug in the sevice class FbqListImpl
+        assertThat(results).hasSize(maxNumber);
     }
 
 
